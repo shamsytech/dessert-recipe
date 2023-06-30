@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+#section1 > span {
+    text-align:center;
+}
+
+
+h1{
+    font-family: "Rubix Puddles", cursive;
+    font-weight:300px;
+}
+
+img{
+    display:block;
+    width: 14em;
+    height: 18em;
+    border: 1.75px solid black;
+    padding:1.25em;
+    background: pink;
+
+
+}
+
+
+main p {
+    text-align: center;
+    font-family: "Open Sans", cursive;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+
+body{
+
+     border: 2px solid black;
+     background: pink;
+     margin-left:250px;
+     padding: 2em;
+
+
+}
+
+
+#section1 span {
+    display:block;
+    text-align:center;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+
+
+section p{
+    position:absolute;
+    padding-right: 3em;
+    margin: 0 -1em;
+    font-family: "Open Sans", sans-serif;
+    top: 21em;
+    right:2.5em;
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 400;
+    height: 10em;
+
+
+
+}
+
+
+nav{
+    float:left;
+    top:0px;
+    left:-25px;
+    bottom:0px;
+    position:fixed;
+    width:150px;
+    height:0px;
+    background:pink;
+
+}
+
+button {
+    background:pink;
+    padding-left:50px;
+    padding:7px;
+    color: black;
+    width: 150px;
+}
+
+#form{
+    display:block;
+    font-size: 1px;
+    background:pink;
+    text-indent:-6px;
+    height:40px;
+    border:0;
+}
+
+
+
+footer #title{
+    font-size: 14.5px;
+    float:left;
+    padding: 0em;
+}
+
+
+.socials #linkedin{
+    display:block;
+    text-align:center;
+    font-size: 13.5px;
+    float:center;
+}
+
+.socials #date {
+    display:block;
+    font-size: 10px;
+    float:right;
+    padding: 9em;
+}
+
+
+
+
+
+}
