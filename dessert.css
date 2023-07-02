@@ -1,3 +1,9 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 
 #arabic{
     text-indent: 12px;
@@ -6,6 +12,8 @@
     font-size: 30px;
     text-align:center;
 }
+
+
 #english {
     text-indent: 12px;
         font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
@@ -22,22 +30,21 @@ body{
     font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
     font-weight: 400px;
     font-size: 13px;
-
 }
+
 
 #img1 {
-    width: 18%;
-    height: 150px;
+    height: 11.5em;
+
 }
 
+
 #alt1 {
-    position:absolute;
-    top:24em;
-    left:40.5em;
-    text-indent: 2em;
+    text-align:center;
     font-size: 12.5px;
 
 }
+
 
 
 span {
@@ -51,8 +58,12 @@ div {
    text-indent: 14px;
 }
 
-h2,h4,h5 {
+h2,h5 {
    text-indent: 14px;
+}
+
+h4{
+    font-size: 14.5px;
 }
 
 h5{
@@ -70,11 +81,6 @@ tr, th, td{
 
 table{
     margin-left:auto;margin-right:auto;
-}
-
-
-p{
-    text-indent:1em;
 }
 
 
@@ -134,8 +140,6 @@ ol {
     line-height:0px;
 }
 
-h4{
-    font-size: 14.5px;
-}
+
 
 
