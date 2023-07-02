@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
 #section1 > span {
     text-align:center;
 }
@@ -19,7 +28,6 @@ img{
     border: 1.75px solid black;
     padding:1.25em;
     background: pink;
-
 
 }
 
@@ -39,8 +47,8 @@ body{
      margin-left:250px;
      padding: 2em;
 
-
 }
+
 
 
 #section1 span {
@@ -57,8 +65,8 @@ section p{
     padding-right: 3em;
     margin: 0 -1em;
     font-family: "Open Sans", sans-serif;
-    top: 21em;
-    right:2.5em;
+    top: 22.5em;
+    right:2em;
     font-size: 15px;
     line-height: 35px;
     font-weight: 400;
@@ -101,28 +109,33 @@ button {
 
 
 footer #title{
+    display:block;
+    text-align:center;
     font-size: 14.5px;
-    float:left;
-    padding: 0em;
+
+
 }
 
 
 .socials #linkedin{
+
     display:block;
-    text-align:center;
-    font-size: 13.5px;
-    float:center;
+   text-align:center;
+   font-size: 13px;
 }
 
 .socials #date {
     display:block;
+    position:absolute;
     font-size: 10px;
     float:right;
-    padding: 9em;
+    right: 1.4em;
+    bottom: -.5em;
+
+}
+footer{
+    line-height:.75em;
 }
 
 
 
-
-
-}
