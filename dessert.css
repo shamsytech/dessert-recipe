@@ -6,20 +6,17 @@ body {
 }
 
 #arabic{
-    text-indent: 12px;
     font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
     font-weight:400px;
     font-size: 30px;
-    text-align:center;
+
 }
 
-
 #english {
-    text-indent: 12px;
-        font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
-        font-weight:400px;
-        font-size: 22px;
-        text-align:center;
+     text-indent: 12px;
+     font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
+     font-weight:400px;
+     font-size: 22px;
     }
 
 body{
@@ -30,44 +27,36 @@ body{
     font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
     font-weight: 400px;
     font-size: 13px;
+    color: #444444;
 }
 
 
 #img1 {
     height: 11.5em;
-
 }
 
 
 #alt1 {
-    text-align:center;
     font-size: 12.5px;
-
+    margin-top: 0em;
 }
-
 
 
 span {
     display:block;
-    text-indent: px;
-    text-indent:1em;
-
 }
 
-div {
-   text-indent: 14px;
+
+h4, h5{
+    font-size: 14.5px;
 }
 
-h2,h5 {
-   text-indent: 14px;
-}
 
 h4{
-    font-size: 14.5px;
+    margin-top: -.75em;
 }
 
 h5{
-    font-size: 14.5px;
     position: relative;
     bottom: 7px;
 }
@@ -85,40 +74,18 @@ table{
 
 
 #directions{
-    text-indent:11px;
     font-size: 22px;
-
 }
 
-#ingredients {
-    width: 200px
-}
 
-#measurements {
-    width: 200px;
-}
-
-#done{
-    text-indent: 27px;
-}
-
-section h3 {
+section h3, footer{
     text-decoration: bold;
 }
 
-.details {
-   text-indent:14px;
-}
-
-footer{
-    text-align:center;
-    font-size: 16px;
-    text-decoration: bold;
-}
 
 ol {
-    text-align: center;
-      list-style-position: inside;
+
+    list-style-position: inside;
 }
 
 .top_sections h3 {
@@ -126,20 +93,17 @@ ol {
     line-height: 2.5px;
 }
 
-
-.bottom_sections h3{
+.bottom_sections h3 { /* starting from Jelly */
+    font-size: 20px;
     line-height: 6px;
 }
 
-.bottom_sections h3 {
-    font-size: 21px;
+#final_section div{
+    margin-top: -.1em;
 }
 
-
-#final_section {
-    line-height:0px;
+footer{
+    text-align:center;
+    font-size: 16px;
 }
-
-
-
 
