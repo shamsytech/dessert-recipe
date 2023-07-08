@@ -3,92 +3,135 @@ html {
     height: 100%;
 }
 body {
-    min-height: 100%;
+    min-height: 900px;;
+    min-width: 50%
+    float:right;
 }
-
 
 *{
     box-sizing: border-box;
 }
 
 
-#section1 > span {
-    text-align:center;
+nav{
+    float:right;
+    top:0px;
+    left:-25px;
+    bottom:0px;
+    position:fixed;
+    width:50px;
+    height:0px;
+    background:pink;
+
 }
 
+main{
+    float:left;
+    min-height: 500px;
+    width: 40em;
+    border: 2px solid black;
+    background: pink;
+    padding: 2em;
 
-h1{
+
+}
+
+h1{ /** MidEast Recipes title **/
     font-family: "Rubix Puddles", cursive;
     font-weight:300px;
 }
 
-img{
-    display:block;
-    width: 14em;
-    height: 18em;
-    border: 1.75px solid black;
-    padding:1.25em;
-    background: pink;
 
+#about {
+display:block;
+text-align:center;
+font-weight:bold;
 }
 
 
-main p {
-    text-align: center;
+
+main p { /** quote for the website **/
+    text-align:center;
     font-family: "Open Sans", cursive;
-    font-weight: bold;
     font-size: 13.5px;
+    font-weight:bold;
+
+
 }
 
 
-body{
+
+
+h1{ /** MidEast Recipes title **/
+    font-family: "Rubix Puddles", cursive;
+    font-weight:300px;
+}
+
+.container p {
+margin-bottom: 3em;
+}
+
+
+img{ // /**img of me**/
+
+    display:block;
+    position:absolute;
+    width: 12em;
+    height: 15em;
+    margin-top: 2.5em;
+    padding:0em;
+    margin-left: 0em;
+    background: pink;
+    border: 1.5px solid black;
+
+
+
+
+}
+
+
+
+.divs { /** my About me biography paragraph **/
+display:block;
+text-align:right;
+font-weight:bold;
+font-size: 16px;
+font-family: "Open Sans", cursive;
+font-size: 13.25px;
+margin-right: 0em;
+line-height: 18px;
+padding: .75em .75em .75em 0em;
+
+
+
+}
+
+
+/*.container { *//** container of img and paragraph**//*
+
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+
+}*/
+
+
+
+body{ /** page behind the main **/
 
      border: 2px solid black;
      background: pink;
      margin-left:250px;
      padding: 2em;
+     min-height: 685px;
 
 }
 
 
 
-#section1 span {
-    display:block;
-    text-align:center;
-    font-weight: bold;
-    font-size: 15.5px;
-}
 
-
-
-section p{
-    position:absolute;
-    padding-right: 3em;
-    margin: 0 -1em;
-    font-family: "Open Sans", sans-serif;
-    top: 22.5em;
-    right:2em;
-    font-size: 15px;
-    line-height: 35px;
-    font-weight: 400;
-    height: 10em;
-
-
-
-}
-
-
-nav{
-    float:left;
-    top:0px;
-    left:-25px;
-    bottom:0px;
-    position:fixed;
-    width:150px;
-    height:0px;
-    background:pink;
-
-}
 
 button {
     background:pink;
@@ -96,9 +139,11 @@ button {
     padding:7px;
     color: black;
     width: 150px;
+    height:40px;
 }
 
-#form{
+
+#form{  /**search bar **/
     display:block;
     font-size: 1px;
     background:pink;
@@ -109,35 +154,41 @@ button {
 
 
 
-footer #title{
-    display:block;
-    text-align:center;
-    font-size: 14.5px;
 
-
-}
 
 
 .socials #linkedin{
 
-    display:block;
-   text-align:center;
-   font-size: 13px;
-}
+  display:block;
+  clear:both;
+  text-align:center;
+  padding-top: 5em;
+  font-size: 12.5px;
+  margin-bottom:.1em;
+  font-weight:bold;
 
-.socials #date {
-    display:block;
-    position:absolute;
-    font-size: 10.5px;
-    float:right;
-    right: 1.4em;
-    bottom: -4.75em;
 
 
 }
+
+
+
+
 footer{
     line-height:.75em;
 }
 
+
+
+
+
+#date {
+    display:block;
+    position:absolute;
+    font-size: 10.5px;
+    right: 1.4em;
+    bottom: -23.5em;
+
+}
 
 
