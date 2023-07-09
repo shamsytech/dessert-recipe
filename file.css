@@ -59,14 +59,6 @@ main p { /** quote for the website **/
 
 }
 
-
-
-
-h1{ /** MidEast Recipes title **/
-    font-family: "Rubix Puddles", cursive;
-    font-weight:300px;
-}
-
 .container p {
 margin-bottom: 3em;
 }
@@ -83,8 +75,6 @@ img{ // /**img of me**/
     margin-left: 0em;
     background: pink;
     border: 1.5px solid black;
-
-
 
 
 }
@@ -131,8 +121,6 @@ body{ /** page behind the main **/
 
 
 
-
-
 button {
     background:pink;
     padding-left:50px;
@@ -143,16 +131,13 @@ button {
 }
 
 
-#form{  /**search bar **/
+/** #form{  // search bar
     display:block;
     font-size: 1px;
     background:pink;
     text-indent:-6px;
     height:40px;
-    border:0;
-}
-
-
+    border:0; } **/
 
 
 
