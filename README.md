@@ -1,5 +1,5 @@
 # My Recipe Website
-This website features a recipe that can be made with accessible ingredients made by my mother. 
+This website features a recipe made originally by my mother.
 
 **Link to project:** shamshasan0.github.io/recipe
 
