@@ -5,31 +5,31 @@ body {
     min-height: 100%;
 }
 
+body{
+    background: rgb(250, 228, 215);
+    border: 2px solid black;
+    margin-top:.5em;
+    font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
+    font-weight: 400px;
+    font-size: 13px;
+    color: #444444;
+    text-align:center;
+}
+
 #arabic{
     font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
     font-weight:400px;
     font-size: 30px;
-
+    
 }
+
 
 #english {
      text-indent: 12px;
      font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
      font-weight:400px;
      font-size: 22px;
-    }
-
-body{
-    background: beige;
-    text-align:center;
-    border: 2px solid black;
-    margin-top:1em;
-    font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
-    font-weight: 400px;
-    font-size: 13px;
-    color: #444444;
 }
-
 
 #img1 {
     height: 11.5em;
@@ -41,20 +41,10 @@ body{
     margin-top: 0em;
 }
 
-
-span {
-    display:block;
-}
-
-
 h4, h5{
     font-size: 14.5px;
 }
 
-
-h4{
-    margin-top: -.75em;
-}
 
 h5{
     position: relative;
@@ -79,15 +69,15 @@ table{
 
 
 section h3, footer{
-    text-decoration: bold;
+   text-decoration: bold;
 }
 
 
-ol {
-
+.ol {
     list-style-position: inside;
-    padding: 0; 
     margin: 0 auto;
+    padding: 0;
+
 }
 
 .top_sections h3 {
@@ -100,12 +90,31 @@ ol {
     line-height: 6px;
 }
 
-#final_section div{
+.final_section div{
     margin-top: -.1em;
 }
+
+.final_section > h4{
+    margin-bottom: .5rem;
+    margin-top: .1rem;
+}
+
 
 footer{
     text-align:center;
     font-size: 16px;
+    margin-bottom: 1.5rem;
+    
+}
+
+.button { /** both buttons **/
+    text-decoration: none;
+    border: 1.25px solid black;
+    padding:4px 10px;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin: .5rem;
 }
 
