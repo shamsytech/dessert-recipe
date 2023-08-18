@@ -5,7 +5,7 @@ This website features a recipe made originally by my mother.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS
+**Tech used:** HTML, CSS, JS
 
 I thought to myself when I first started learning HTML & CSS, "What the heck kind of project do I make with this, there are so many options! Suddenly, a light went off in my brain. "Wait, my mom told me about a recipe which I happened to write in my notes app, why don't I use that same recipe and publish it online to showcase my knowledge of these two markup languages?" 
 And that I did. Brainstorming ideas on the HMTL aspect of the website came easy because I had already looked at some sample recipe websites prior to starting, and knew exactly what information I wanted to include.
