@@ -7,7 +7,6 @@ body {
 
 body{
     background: rgb(250, 228, 215);
-    border: 2px solid black;
     margin-top:.5em;
     font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
     font-weight: 400px;
@@ -20,7 +19,6 @@ body{
     font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
     font-weight:400px;
     font-size: 30px;
-    
 }
 
 
