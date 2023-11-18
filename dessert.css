@@ -21,7 +21,6 @@ body{
     font-size: 30px;
 }
 
-
 #english {
      text-indent: 12px;
      font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
@@ -43,7 +42,6 @@ h4, h5{
     font-size: 14.5px;
 }
 
-
 h5{
     position: relative;
     bottom: 7px;
@@ -60,22 +58,27 @@ table{
     margin-left:auto;margin-right:auto;
 }
 
+tr, td{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+th{
+    padding: .1rem;
+}
 
 #directions{
     font-size: 22px;
 }
 
-
 section h3, footer{
    text-decoration: bold;
 }
-
 
 .ol {
     list-style-position: inside;
     margin: 0 auto;
     padding: 0;
-
 }
 
 .top_sections h3 {
@@ -97,12 +100,10 @@ section h3, footer{
     margin-top: .1rem;
 }
 
-
 footer{
     text-align:center;
     font-size: 16px;
     margin-bottom: 1.5rem;
-    
 }
 
 .button { /** both buttons **/
