@@ -1,7 +1,7 @@
 # My Recipe Website
 This website features a recipe made originally by my mother.
 
-**Link to project:** (shamshasan0.github.io/dessert-recipe)
+[Link to project](shamshasan0.github.io/dessert-recipe)
 
 ## How It's Made:
 
