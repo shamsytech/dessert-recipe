@@ -17,7 +17,6 @@ function toggleLanguage() {
     }
 }
 
-
 function previousWebsite() {
     location.replace("#");
 }
@@ -25,19 +24,3 @@ function previousWebsite() {
 function nextWebsite() {
     location.replace("#");
 }
-
-
-
-
-
-
-
-
-function previousWebsite() {
-    location.replace("#");
-}
-
-function nextWebsite() {
-    location.replace("#");
-}
-
