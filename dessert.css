@@ -1,31 +1,42 @@
 html {
     height: 100%;
 }
+
 body {
     min-height: 100%;
-}
-
-body{
-    background: rgba(237, 122, 114, 0.141);
-    margin-top:.5em;
-    font-family: "Amiri",serif, "Bellefair" , serif, "IBM Plex Sans Arabic";
+    background: rgb(250, 228, 215);
+    border: 2px solid black;
+    margin-top: 0.5em;
+    font-family: "Amiri", serif, "Bellefair", serif, "IBM Plex Sans Arabic";
     font-weight: 400px;
     font-size: 13px;
     color: #444444;
-    text-align:center;
+    text-align: center;
 }
 
-#arabic{
-    font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
-    font-weight:400px;
+#toggleLanguage {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+    color: #284a6d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#arabic {
+    font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
+    font-weight: 400px;
     font-size: 30px;
 }
 
 #english {
-     text-indent: 12px;
-     font-family: "Amiri",serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
-     font-weight:400px;
-     font-size: 22px;
+    text-indent: 12px;
+    font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
+    font-weight: 400px;
+    font-size: 22px;
 }
 
 #img1 {
@@ -37,50 +48,46 @@ body{
     margin-top: 0em;
 }
 
-h4, h5{
+h4,
+h5 {
     font-size: 14.5px;
 }
 
-h5{
+h5 {
     position: relative;
     bottom: 7px;
 }
 
-tr, th, td{
+tr,
+th,
+td {
     border: 1.25px solid black;
-    width:53%;
-    height:30px;
-    text-align:center;
-}
-tr, td{
-    padding-left: .5rem;
-    padding-right: .5rem;
+    width: 53%;
+    height: 30px;
+    text-align: center;
 }
 
-th{
-    padding: .1rem;
+td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
-table{
-    margin-left:auto;margin-right:auto;
-    
+th {
+    padding: 0.1rem;
 }
 
-tr, td{
-    padding-left: .5rem;
-    padding-right: .5rem;
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-th{
-    padding: .1rem;
-}
-
-#directions{
+#directions {
     font-size: 22px;
 }
 
-section h3, footer{
-   text-decoration: bold;
+section h3,
+footer {
+    text-decoration: bold;
 }
 
 .ol {
@@ -94,34 +101,35 @@ section h3, footer{
     line-height: 2.5px;
 }
 
-.bottom_sections h3 { /* starting from Jelly */
+.bottom_sections h3 {
+    /* starting from Jelly */
     font-size: 20px;
     line-height: 6px;
 }
 
-.final_section div{
-    margin-top: -.1em;
+.final_section div {
+    margin-top: -0.1em;
 }
 
-.final_section > h4{
-    margin-bottom: .5rem;
-    margin-top: .1rem;
+.final_section > h4 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.1rem;
 }
 
-footer{
-    text-align:center;
+footer {
+    text-align: center;
     font-size: 16px;
     margin-bottom: 1.5rem;
 }
 
-.button { /** both buttons **/
+.button {
+    /** both buttons **/
     text-decoration: none;
     border: 1.25px solid black;
-    padding:4px 10px;
+    padding: 4px 10px;
     font-size: 17px;
     color: black;
     text-transform: uppercase;
     padding-bottom: 0px;
-    margin: .5rem;
+    margin: 0.5rem;
 }
-
