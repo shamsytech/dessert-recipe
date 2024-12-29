@@ -7,9 +7,10 @@ This website features a recipe made originally by my mother.
 
 **Tech used:** HTML, CSS, JS
 
-I thought to myself when I first started learning HTML & CSS, "What the heck kind of project do I make with this, there are so many options!" Suddenly, a lightbulb went off in my brain. "Wait, my mom told me about a recipe which I happened to write in my notes app, why don't I use that same recipe and publish it online to showcase my knowledge of these two markup languages?" 
-And that I did. Brainstorming ideas on the HMTL aspect of the website came easy because I had already looked at some sample recipe websites prior to starting, and knew exactly what information I wanted to include.
-The most time-consuming was the CSS - there were so many styling options I could do for my website. For a couple weeks, I experimented with colors, text-alignment, etc and learned about classes & ids and how the specificity of them making them very useful for targetting certain elements. Thankfully, the css began flowing from here.
+I thought to myself when I first started learning HTML & CSS, "What the heck kind of project do I make with this, there are so many options!" Suddenly, a lightbulb went off in my brain. "Wait, my mom told me about a recipe which I happened to write in my notes app, why don't I use that same recipe and publish it online to showcase my knowledge of these two languages?" 
+
+...and that I did. Brainstorming ideas on the HMTL aspect of the website came easy because I had already looked at some sample recipe websites prior to starting, and knew exactly what information I wanted to include.
+The most time-consuming was the CSS -- there were so many styling options I could do for my website. For a couple weeks, I experimented with colors, text-alignment, etc and learned about classes & ids and how the specificity of them making them very useful for targetting certain elements. Thankfully, the CSS began flowing from here.
 
 ## Optimizations
 I learned various things nearing the end of my project such as website responsiveness for the smallest of resolutions. I implemented this concept into my project. This gave me a huge confidence boost knowing that no matter what device someone was using, they're able to read the valuable information just as one using a high-resolution device would.
