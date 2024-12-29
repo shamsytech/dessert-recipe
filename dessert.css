@@ -26,34 +26,32 @@ body {
     text-decoration: underline;
 }
 
-#arabic {
+#headingArabic,
+#headingEnglish {
     font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
     font-weight: 400px;
     font-size: 30px;
-}
-
-#english {
-    text-indent: 12px;
-    font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
-    font-weight: 400px;
-    font-size: 22px;
 }
 
 #img1 {
     height: 11.5em;
 }
 
-#alt1 {
-    font-size: 12.5px;
-    margin-top: 0em;
+#altEnglish,
+#altArabic {
+    font-size: 10px;
+    margin-top: -0.4em;
 }
 
 h4,
-h5 {
+#nameEnglish,
+#nameArabic {
     font-size: 14.5px;
+    margin-top: 22.5px;
 }
 
-h5 {
+#nameEnglish,
+#nameArabic {
     position: relative;
     bottom: 7px;
 }
