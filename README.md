@@ -1,32 +1,26 @@
 # My Recipe Website
-This website features a recipe made originally by my mother.
+This website features a recipe originally created by my mother.
 
 [Link to project](https://shamshasan0.github.io/dessert-recipe/)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JS
+**Tech used:** HTML, CSS, JavaScript
 
-I thought to myself when I first started learning HTML & CSS, "What the heck kind of project do I make with this, there are so many options!" Suddenly, a lightbulb went off in my brain. "Wait, my mom told me about a recipe which I happened to write in my notes app, why don't I use that same recipe and publish it online to showcase my knowledge of these two languages?" 
+When I first started learning HTML and CSS, I was overwhelmed by the number of project ideas I could pursue. Then, it hit me—my mom had shared a delicious recipe with me, and I had written it down in my notes app. Why not use that recipe to create a website and showcase my new skills in HTML and CSS?
 
-...and that I did. Brainstorming ideas on the HMTL aspect of the website came easy because I had already looked at some sample recipe websites prior to starting, and knew exactly what information I wanted to include.
-The most time-consuming was the CSS -- there were so many styling options I could do for my website. For a couple weeks, I experimented with colors, text-alignment, etc and learned about classes & ids and how the specificity of them making them very useful for targetting certain elements. Thankfully, the CSS began flowing from here.
+That’s exactly what I did! The HTML part of the website came together fairly quickly since I had already researched some sample recipe websites. I knew what elements I wanted to include, like the ingredients and instructions.
+
+The most challenging part was the CSS. There were so many styling options, and I spent weeks experimenting with different colors, text alignments, and layouts. During this time, I also learned about classes and IDs, and how their specificity can help target specific elements effectively. Eventually, the design began to take shape, and the CSS flowed naturally.
 
 ## Optimizations
-I learned various things nearing the end of my project such as website responsiveness for the smallest of resolutions. I implemented this concept into my project. This gave me a huge confidence boost knowing that no matter what device someone was using, they're able to read the valuable information just as one using a high-resolution device would.
+Toward the end of the project, I focused on making the website responsive—ensuring it would look great on any device, from desktop to mobile. I learned how to optimize the design for even the smallest screens, which was a great confidence boost. Knowing that users with different devices could access the site comfortably was a rewarding feeling.
 
 ## Lessons Learned:
+My journey into web development began with a search for coding bootcamps and resources to learn front-end development. At the time, my knowledge was limited to back-end programming, but I wanted to expand my skills to include front-end technologies.
 
-I began my web development journey by going online and searching coding bootcamps for different web-design languages, because although my only knowledge at the time consisted of back-end languages - I wanted to explore front-end as well. 
-This is how I discovered streamer Leon Noel - the man himself who created an entire cohort course community for aspiring web developers called '100Devs'.
-This cohort consists of free and useful content that touches on more than just programming - networking being an explicit topic. I figured if i was going to start networking, i might as well join the server and see what these other web devs are up to. 
+That’s when I discovered streamer Leon Noel, a software engineer who runs a cohort called '100Devs.' This cohort provides free and practical content that goes beyond coding—networking is a key focus as well. I decided to join the community, which has a large Discord group where aspiring developers can interact, share knowledge, and support each other.
 
-I joined their discord community with thousands of people - some who have been doing this cohort for a long time, while others hadn't started learning too long ago. 
-These amazing, kindhearted people still to this day go out of their way to help me with any concerns that I encounter - coding or not coding related. They taught me that it's good to ask for help, and they have always been ecstatic to offer it. Some quickly became good friends who get dearer to me as each day goes by.
-Anyway, let's get to the point. The biggest lesson I got from this project by far is how important it is to have a supportive community. Something that's been pointed out by multiple people is that I am a very curious person who always brings the energy and willingness to learn. Being a person who makes it simple for others to be of help to you is crucial. I find that these two traits have been the biggest aid in helping me network and naturally draw me to the right people.
+In this Discord community, I connected with hundreds of people—some of whom had been part of 100Devs for years, and others who were just starting out in their learning journey. The support I received was invaluable. The members were always eager to help, whether with coding-related questions or personal challenges. Many of them have become close friends, and they continue to inspire and motivate me.
 
-
-
-
-
-
+The biggest lesson I learned from this project, and from the 100Devs community, is the importance of having a supportive network. People have often described me as curious and eager to learn, and I’ve found that being open to help and making it easy for others to assist you is essential. These traits have not only helped me with coding but have also been invaluable in networking and connecting with the right people.
