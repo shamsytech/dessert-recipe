@@ -12,12 +12,13 @@ body {
     font-size: 13px;
     color: #444444;
     text-align: center;
+    padding: .75em;
 }
 
 #toggleLanguage {
     position: absolute;
     top: 10px;
-    right: 15px;
+    right: 18px;
     font-size: 17px;
     color: #010101;
     cursor: pointer;
@@ -76,7 +77,7 @@ table {
     margin-right: auto;
 }
 
-#directions {
+#directionsEnglish, #directionsArabic {
     font-size: 22px;
 }
 
@@ -99,7 +100,7 @@ footer {
 
 .bottom_sections h4 {
     /* starting from Jelly */
-    font-size: 15px;
+    font-size: 16.5px;
     line-height: 6px;
     margin-bottom: 15px;
 
@@ -134,7 +135,7 @@ footer {
 
 @media screen and (max-width: 500px) and (max-height: 500px) {
     #toggleLanguage {
-        font-size: 12px;
+        font-size: 12.5px;
         padding-right: -1rem;
     }
 }

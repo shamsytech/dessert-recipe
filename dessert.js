@@ -43,6 +43,25 @@ function toggleLanguageDisplay() {
         document.getElementById('prepHeaderArabic').style.display = 'block';
         document.getElementById('prepTimeEnglish').style.display = 'none';
         document.getElementById('prepTimeArabic').style.display = 'block';
+        document.getElementById('directionsEnglish').style.display = 'none';
+        document.getElementById('directionsArabic').style.display = 'block';
+        document.getElementById('jellyEnglish').style.display = 'none';
+        document.getElementById('jellyArabic').style.display = 'block';
+        document.getElementById('jellyInstructionsEnglish').style.display = 'none';
+        document.getElementById('jellyInstructionsArabic').style.display = 'block';
+        document.getElementById('custardEnglish').style.display = 'none';
+        document.getElementById('custardArabic').style.display = 'block';
+        document.getElementById('custardInstructionsEnglish').style.display = 'none';
+        document.getElementById('custardInstructionsArabic').style.display = 'block';
+        document.getElementById('nextEnglish').style.display = 'none';
+        document.getElementById('nextArabic').style.display = 'block';
+        document.getElementById('finalInstructionsEnglish').style.display = 'none';
+        document.getElementById('finalInstructionsArabic').style.display = 'block';
+        document.getElementById('quickLinksEnglish').style.display = 'none';
+        document.getElementById('quickLinksArabic').style.display = 'block';
+        document.getElementById('footerEnglish').style.display = 'none';
+        document.getElementById('footerArabic').style.display = 'block';
+
     } else {
         // Apply English settings
         document.getElementById('toggleLanguage').textContent = "العربية";
@@ -62,6 +81,26 @@ function toggleLanguageDisplay() {
         document.getElementById('prepHeaderArabic').style.display = 'none';
         document.getElementById('prepTimeEnglish').style.display = 'block';
         document.getElementById('prepTimeArabic').style.display = 'none';
+        document.getElementById('directionsEnglish').style.display = 'block';
+        document.getElementById('directionsArabic').style.display = 'none';
+        document.getElementById('jellyEnglish').style.display = 'block';
+        document.getElementById('jellyArabic').style.display = 'none';
+        document.getElementById('jellyInstructionsEnglish').style.display = 'block';
+        document.getElementById('jellyInstructionsArabic').style.display = 'none';
+        document.getElementById('custardEnglish').style.display = 'block';
+        document.getElementById('custardArabic').style.display = 'none';
+        document.getElementById('custardInstructionsEnglish').style.display = 'block';
+        document.getElementById('custardInstructionsArabic').style.display = 'none';
+        document.getElementById('nextEnglish').style.display = 'block';
+        document.getElementById('nextArabic').style.display = 'none';
+        document.getElementById('finalInstructionsEnglish').style.display = 'block';
+        document.getElementById('finalInstructionsArabic').style.display = 'none';
+        document.getElementById('quickLinksEnglish').style.display = 'block';
+        document.getElementById('quickLinksArabic').style.display = 'none';
+        document.getElementById('footerEnglish').style.display = 'block';
+        document.getElementById('footerArabic').style.display = 'none';
+
+
     }
 }
 
@@ -72,12 +111,11 @@ function toggleLanguage() {
     setLanguage(newLang); // Set the new language and update page
 }
 
+// unneeded logic unless next and previous buttons are installed
+// function previousWebsite() {
+//     location.replace("#");
+// }
 
-// previous and next website placeholders
-function previousWebsite() {
-    location.replace("#");
-}
-
-function nextWebsite() {
-    location.replace("#");
-}
+// function nextWebsite() {
+//     location.replace("#");
+// }
