@@ -17,13 +17,10 @@ body {
 #toggleLanguage {
     position: absolute;
     top: 10px;
-    right: 20px;
-    font-size: 18px;
-    color: #284a6d;
-    text-decoration: none;
+    right: 15px;
+    font-size: 17px;
+    color: #010101;
     cursor: pointer;
-    padding: 10px;
-    text-decoration: underline;
 }
 
 #headingArabic,
@@ -83,7 +80,7 @@ table {
     font-size: 22px;
 }
 
-section h3,
+section h4,
 footer {
     text-decoration: bold;
 }
@@ -94,15 +91,18 @@ footer {
     padding: 0;
 }
 
-.top_sections h3 {
-    font-size: 16.3px;
+.top_sections h4 {
+    font-size: 16px;
     line-height: 2.5px;
+    margin-bottom: 15px;
 }
 
-.bottom_sections h3 {
+.bottom_sections h4 {
     /* starting from Jelly */
-    font-size: 20px;
+    font-size: 15px;
     line-height: 6px;
+    margin-bottom: 15px;
+
 }
 
 .final_section div {
@@ -130,4 +130,11 @@ footer {
     text-transform: uppercase;
     padding-bottom: 0px;
     margin: 0.5rem;
+}
+
+@media screen and (max-width: 500px) and (max-height: 500px) {
+    #toggleLanguage {
+        font-size: 12px;
+        padding-right: -1rem;
+    }
 }
