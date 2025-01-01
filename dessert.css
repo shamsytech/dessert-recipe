@@ -4,30 +4,27 @@ html {
 
 body {
     min-height: 100%;
-    background: rgb(250, 228, 215);
+    background: rgb(249, 226, 226);
     border: 2px solid black;
     margin-top: 0.5em;
     font-family: "Amiri", serif, "Bellefair", serif, "IBM Plex Sans Arabic";
-    font-weight: 400px;
     font-size: 13px;
     color: #444444;
     text-align: center;
-    padding: .75em;
+    padding: 1em 1em 0.75em 1em; /* combined padding shorthand */
 }
 
 #toggleLanguage {
     position: absolute;
-    top: 10px;
+    top: 11.5px;
     right: 18px;
     font-size: 17px;
     color: #010101;
     cursor: pointer;
 }
 
-#headingArabic,
-#headingEnglish {
+#headingArabic, #headingEnglish {
     font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
-    font-weight: 400px;
     font-size: 30px;
 }
 
@@ -35,28 +32,25 @@ body {
     height: 11.5em;
 }
 
-#altEnglish,
-#altArabic {
+#altEnglish, #altArabic {
     font-size: 10px;
     margin-top: -0.4em;
 }
 
-h4,
-#nameEnglish,
-#nameArabic {
-    font-size: 14.5px;
-    margin-top: 22.5px;
+h4 {
+    margin-top: 25px;
+    margin-bottom: 18px;
 }
 
-#nameEnglish,
-#nameArabic {
+#nameEnglish, #nameArabic {
     position: relative;
     bottom: 7px;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    font-size: 14.5px;
 }
 
-tr,
-th,
-td {
+tr, th, td {
     border: 1.25px solid black;
     width: 53%;
     height: 30px;
@@ -64,8 +58,7 @@ td {
 }
 
 td {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0 0.5rem; /* combined padding shorthand */
 }
 
 th {
@@ -81,9 +74,8 @@ table {
     font-size: 22px;
 }
 
-section h4,
-footer {
-    text-decoration: bold;
+section h4, footer {
+    font-weight: bold; /* 'text-decoration: bold' is invalid, replaced with font-weight */
 }
 
 .ol {
@@ -92,18 +84,16 @@ footer {
     padding: 0;
 }
 
-.top_sections h4 {
-    font-size: 16px;
-    line-height: 2.5px;
-    margin-bottom: 15px;
+.top_sections {
+    font-size: 13px;
+    line-height: 12px;
+    margin-bottom: 0;
 }
 
-.bottom_sections h4 {
-    /* starting from Jelly */
-    font-size: 16.5px;
+.bottom_sections {
+    font-size: 16px;
     line-height: 6px;
     margin-bottom: 15px;
-
 }
 
 .final_section div {
@@ -119,23 +109,21 @@ footer {
     text-align: center;
     font-size: 16px;
     margin-bottom: 1.5rem;
+    margin-top: 0.5em;
 }
 
 .button {
-    /** both buttons **/
     text-decoration: none;
     border: 1.25px solid black;
     padding: 4px 10px;
     font-size: 17px;
     color: black;
     text-transform: uppercase;
-    padding-bottom: 0px;
     margin: 0.5rem;
 }
 
 @media screen and (max-width: 500px) and (max-height: 500px) {
     #toggleLanguage {
         font-size: 12.5px;
-        padding-right: -1rem;
     }
 }
