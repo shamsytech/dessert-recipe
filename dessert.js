@@ -1,5 +1,5 @@
 // Ensure the default language is correctly initialized and set the toggle button event
-window.onload = function() {
+window.onload = function () {
     let currentLang = getLanguage(); // Get the stored or detected language
     setLanguage(currentLang); // Apply the language when the page loads
 
@@ -61,6 +61,8 @@ function toggleLanguageDisplay() {
         document.getElementById('quickLinksArabic').style.display = 'block';
         document.getElementById('footerEnglish').style.display = 'none';
         document.getElementById('footerArabic').style.display = 'block';
+        document.getElementById('tableEnglish').style.display = 'none';
+        document.getElementById('tableArabic').style.display = 'inline'
 
     } else {
         // Apply English settings
@@ -99,6 +101,8 @@ function toggleLanguageDisplay() {
         document.getElementById('quickLinksArabic').style.display = 'none';
         document.getElementById('footerEnglish').style.display = 'block';
         document.getElementById('footerArabic').style.display = 'none';
+        document.getElementById('tableEnglish').style.display = 'inline';
+        document.getElementById('tableArabic').style.display = 'none'
 
 
     }
