@@ -23,7 +23,8 @@ body {
     cursor: pointer;
 }
 
-#headingArabic, #headingEnglish {
+#headingArabic,
+#headingEnglish {
     font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
     font-size: 30px;
 }
@@ -32,7 +33,8 @@ body {
     height: 11.5em;
 }
 
-#altEnglish, #altArabic {
+#altEnglish,
+#altArabic {
     font-size: 10px;
     margin-top: -0.4em;
 }
@@ -42,7 +44,8 @@ h4 {
     margin-bottom: 18px;
 }
 
-#nameEnglish, #nameArabic {
+#nameEnglish,
+#nameArabic {
     position: relative;
     bottom: 7px;
     margin-top: 26px;
@@ -50,7 +53,9 @@ h4 {
     font-size: 14.5px;
 }
 
-tr, th, td {
+tr,
+th,
+td {
     border: 1.25px solid black;
     width: 53%;
     height: 30px;
@@ -70,11 +75,13 @@ table {
     margin-right: auto;
 }
 
-#directionsEnglish, #directionsArabic {
+#directionsEnglish,
+#directionsArabic {
     font-size: 22px;
 }
 
-section h4, footer {
+section h4,
+footer {
     font-weight: bold; /* 'text-decoration: bold' is invalid, replaced with font-weight */
 }
 
