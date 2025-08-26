@@ -63,6 +63,9 @@ function toggleLanguageDisplay() {
         document.getElementById('footerArabic').style.display = 'block';
         document.getElementById('tableEnglish').style.display = 'none';
         document.getElementById('tableArabic').style.display = 'inline'
+        document.getElementById('quoteEnglish').style.display = 'none'
+        document.getElementById('quoteArabic').style.display = 'block'
+
 
     } else {
         // Apply English settings
@@ -103,6 +106,8 @@ function toggleLanguageDisplay() {
         document.getElementById('footerArabic').style.display = 'none';
         document.getElementById('tableEnglish').style.display = 'inline';
         document.getElementById('tableArabic').style.display = 'none'
+        document.getElementById('quoteEnglish').style.display = 'block'
+        document.getElementById('quoteArabic').style.display = 'none'
 
 
     }
