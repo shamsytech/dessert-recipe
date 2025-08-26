@@ -2,16 +2,23 @@ html {
     height: 100%;
 }
 
+h1,
+h2,
+p,
+table {
+    margin: 1.5rem 0;
+}
+
 body {
     min-height: 100%;
-    background: rgb(247, 240, 240);
+    background: white;
     border: 2px solid black;
     margin-top: 0.5em;
-    font-family: "Amiri", serif, "Bellefair", serif, "IBM Plex Sans Arabic";
+    font-family: "Amiri", "Bellefair", "IBM Plex Sans Arabic", serif;
     font-size: 13px;
     color: #444444;
     text-align: center;
-    padding: 1em 1em 0.75em 1em; /* combined padding shorthand */
+    padding: 1em 1em 0.75em 1em;
 }
 
 #toggleLanguage {
@@ -27,8 +34,18 @@ body {
 
 #headingArabic,
 #headingEnglish {
-    font-family: "Amiri", serif, "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive;
+    font-family: "Amiri", "Dancing Script", cursive, "IBM Plex Sans Arabic", "Caveat", cursive, serif;
     font-size: 30px;
+    margin-bottom: 0;
+}
+
+#headingQuote {
+    font-style: italic;
+    color: #444;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 1rem 0 2rem;
+    font-family: 'Lora', serif;
 }
 
 #img1 {
@@ -55,27 +72,33 @@ h4 {
     font-size: 14.5px;
 }
 
-tr,
-th,
-td {
-    border: 1.25px solid black;
-    width: 53%;
-    height: 30px;
-    text-align: center;
+table {
+    width: 60%;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    font-size: 1em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+th,
 td {
-    padding: 0 0.5rem; /* combined padding shorthand */
+    border: 1.25px solid #c08081;
+    text-align: center;
+    height: 30px;
 }
 
 th {
-    padding: 0.1rem;
+    padding: 0.5rem;
+    background-color: #f8d5d5;
+    font-weight: 600;
+    color: #444;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
+td {
+    padding: 0.5rem;
+    background-color: #fdf2f2;
 }
+
 
 #directionsEnglish,
 #directionsArabic {
@@ -84,7 +107,7 @@ table {
 
 section h4,
 footer {
-    font-weight: bold; /* 'text-decoration: bold' is invalid, replaced with font-weight */
+    font-weight: bold;
 }
 
 .ol {
@@ -109,7 +132,7 @@ footer {
     margin-top: -0.1em;
 }
 
-.final_section > h4 {
+.final_section>h4 {
     margin-bottom: 0.5rem;
     margin-top: 0.1rem;
 }
